@@ -1,0 +1,163 @@
+@media(max-width:768px) {
+    html {
+        overflow-x: hidden;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    nav ul li {
+        display: none;
+    }
+
+    .main {
+        height: 50vh;
+        margin-top: 50px;
+    }
+
+    .main .home-content {
+        line-height: 25px;
+        letter-spacing: 1px;
+    }
+
+    .main .home-content h1 {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .main .home-content h3 {
+        color: white;
+        font-size: 16px;
+    }
+
+    .main .home-content .btn {
+        height: 30px;
+        width: 80px;
+        font-size: 12px;
+    }
+
+    .main .icons a {
+        font-size: 20px;
+        line-height: 55px;
+    }
+
+    .main .image img {
+        width: 250px;
+    }
+    .about .aboutme {
+        display: inline;
+        width: 80%;
+    }
+
+    .about .aboutme h2 {
+        font-size: 25px;
+    }
+
+    .education {
+        background: #BE8DFB;
+        min-height: 50vh;
+    }
+
+    .education h1 span {
+        color: #010024;
+    }
+
+
+    .education .box-container .box {
+        height: 150px;
+        width: 80%;
+    }
+
+    .education .box-container .box .image {
+        flex: 1 1 21rem;
+        width: 100%;
+    }
+
+    .education .box-container .box img {
+        object-fit: cover;
+        position: relative;
+        width: 100%;
+    }
+    .education .box-container .box .content h3 {
+        font-size: 1.5rem;
+    }
+
+    .education h4 {
+        padding-right: 16rem;
+    }
+
+    .contact {
+        display: none;
+    }
+    .footer .box-container .box {
+        flex: 1 1 25rem;
+        margin: 2.5rem;
+    }
+}
+@media(max-width:448px) {
+    nav .logo {
+        height: 30px;
+        margin-left: -60px;
+    }
+    nav ul .btn {
+        height: 30px;
+        width: 80px;
+        font-size: 14px;
+        margin-right: -60px;
+    }
+    .main{
+        background-color: #fff;
+    }
+    .main .home-content{
+        margin-top: 60px;
+        height: 300px;
+        width: 400px;
+        padding: 80px 0 0 25px;
+        line-height: 35px;
+    }
+    .main .home-content h1{
+        color: #010024;
+        font-size: 20px;
+    }
+    .main .home-content h3{
+        font-size: 26px;
+        color: #010024;
+    }
+    .main .icons i{
+        padding-top: 20px;
+        color: #010024;
+        font-size: 30px;
+    }
+    .main .image {
+        display: none;
+    }
+    .about{
+        background-image: url(https://cdn.pixabay.com/photo/2015/11/03/09/00/at-1019914_1280.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .about .img{
+        display: none;
+    }
+    .aboutme{
+        padding-top: 150px;
+        height: 500px;
+    }
+    .skills h1{
+        color: #010024;
+    }
+    .skills .container .cards{
+        background-color: #fff;
+        width: 0;
+        margin-top: -30px;
+    }
+    .cards h1{
+        display: none;
+    }
+    .education ,.skills,.Projects{
+        background-color: #ffffff;
+    }
+    .footer .box-container .box {
+        flex: 1 1 25rem;
+        margin: 2.5rem;
+    }
+}
