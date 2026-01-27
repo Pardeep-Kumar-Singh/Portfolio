@@ -63,6 +63,14 @@ export default function Portfolio() {
       live: "#",
     },
     {
+      title: "IMDB Clone",
+      subtitle: "MovieRecord",
+      description:"MovieRecord is a responsive IMDB-inspired movie web application that allows users to explore trending movies, manage a personalized watchlist, and interact with real-time movie data fetched from the TMDB API.",
+      tech: ["React", "Tailwind CSS", "TMDB API", "Axios", "React Router", "LocalStorage"],
+      github: "https://github.com/Pardeep-Kumar-Singh/IMDb_Clone",
+      live: "https://im-db-clone-inky.vercel.app",
+    },
+    {
       title: "Tandoori Flame",
       subtitle: "Restaurant Website",
       description:
